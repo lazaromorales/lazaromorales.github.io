@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lazaro Morales's Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Fredoka+One&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo slideDown animations-enabled">
+                <a href="index.html"><img src="img/logo-light.png" alt="logo"></a>
+            </div>
+            <!--
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        -->
+            <nav class="nav slideDown animations-enabled">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link underline highlight">Home</a></li>
+                    <li class="nav__item"><a href="projects.html" class="nav__link underline">Projects</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link underline">About</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link underline">Contact</a></li>
+                    <!-- <li class="nav__item"><a href="sign-up.html" class="nav__link">Sign Up</a></li> -->
+                </ul>
+            </nav>
+        </header>
+
+        <!-- INTRO -->
+        <section class="intro">
+            <div class="intro-caption slideUp animations-enabled">
+                <h1 class="section__title section__title--intro">
+                    Hey, I'm <strong> Laz. </strong>
+                </h1>
+                <p>Aspiring Front End Developer, Soccer Enthusiast, Gamer at Night.
+                    I love to help people and create. Ocassionally I like to go out for a drink.</p>
+                <!--<p class="section__subtitle section__subtitle--intro">front-end dev</p>-->
+                <a href="#services" class="btn">My Work</a>
+            </div>
+            <div class="intro__img slideUp animations-enabled">
+                <img src="img/lazaroGrad22.jpg" alt="Lazaro Morales smiling">
+            </div>
+        </section>
+
+        <!-- My Services -->
+        <section class="my-services slideUp" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Front End Development</h3>
+                    <p>Creating Websites and working with HTML, CSS, and JS is enjoyable to me. From
+                        wordpress to github, I help people set up and deploy their websites whether it is
+                        for entertainment, helping a friend out, or business purposes.</p>
+                </div> <!-- service -->
+
+                <div class="service">
+                    <h3>Software Development</h3>
+                    <p>Although I am pursuing a front end development job, my vision long term is to grow and become a
+                        full stack developer. I have experience with programing languages including: Python, C++, C,
+                        and exposure to other low-level languages such as Assembly!</p>
+                </div> <!-- service -->
+
+                <div class="service">
+                    <h3>Everything Graphic Design</h3>
+                    <p>Creativity is imperative for innovation. Video editing for funny youtube videos, creating logos
+                        with Adobe Illustrator, perfecting images with photoshop, I have done it all. I am not an expert
+                        in this field, but love learning and taking new challenges.
+                        </p>
+                </div> <!-- service -->
+            </div> <!-- services -->
+
+            <!-- <a href="work" class="btn">My Work</a> -->
+        </section>
+
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about slideRight">Featured Work</h2>
+            <div class="line slideRight">
+            </div>
+            <div class="about-me-container">
+                <div class="about-me-1 slideRight">
+                    <div class="about-me__img">
+                        <img src="img/featured-work-img4.jpg" class="web-img" alt="Picture of Lazaro's feautred work">
+                        <img src="img/featured-work-img-mobile.png" class="mobile-img" alt="Picture of Lazaro's feautred work">
+                    </div>
+                </div>
+
+                <div class="about-me__body slideLeft">
+                    <div class="about-me-title-container">
+                        <p class="about-me-title">
+                          LA Tekkerz Private Futbol
+                        </p>
+                    </div>
+                    <p>Made almost entirely from scratch, this project showcases LATekkerz's brand/business,
+                        and provides the business lead generation.
+                    </p>
+                    <div class="about-me-skill">
+                        <i class="fas fa-pen-nib"></i>
+                        <h3>Logo Design</h3>
+                    </div>
+                    <div class="about-me-skill">
+                        <i class="fas fa-desktop"></i>
+                        <h3>Web Design</h3>
+                    </div>
+                    <div class="about-me-skill">
+                        <i class="fas fa-code"></i>
+                        <h3>Static Site Development and Programming</h3>
+                    </div>
+                    <a href="featured-work.html" class="btn featuredDesButton">View Details</a>
+                    <!-- <a href="https://www.latekkerz.com" class="btn featuredDesButton">Visit Site</a> -->
+                </div>
+
+            </div>
+        </section>
+
+        <!-- My Services -->
+        <section class="my-services">
+            <h2 class="section__title-services">My Services</h2>
+            <div class="line">
+            </div>
+            <div class="services services-container">
+                <div class="service">
+                    <i class="fas fa-pen-nib"></i>
+                    <h3>Web Design</h3>
+                    <h3>User Centered</h3>
+                    <p>From logo design, to custom css animations, color pallete and layout, I take
+                        care of all design preferences desired. It is important to provide the client a web page
+                        with their desired design choices.</p>
+                </div> <!-- service -->
+
+                <div class="service">
+                    <i class="fas fa-desktop"></i>
+                    <h3>Web Development</h3>
+                    <h3>SEO & Efficiency</h3>
+                    <p>Web Response time is a key component to keeping a client interested. We make sure that
+                    everything html, css, and javascript.</p>
+                </div> <!-- service -->
+
+            </div> <!-- services -->
+
+            <!-- <a href="work" class="btn">My Work</a> -->
+        </section>
+
+
+        <section class="services-footer">
+            <div class="container">
+                <img src="img/computers3.png" alt="">
+            </div>
+        </section>
+
+        <section class="skills-intro">
+            <div class="skills-intro-container">
+                <h3>My Skills</h3>
+                <p>I have always been fond of technology. From games, to programming, I have developed a few
+                    skills and knowledge of several programs and software throughout the years. Although I am
+                    not a professional, I am always open to learning new technologies and further expanding my
+                    skills as a front-end developer and programmer. </p>
+            </div>
+        </section>
+
+        <section class="my-skills">
+            <div class="services services-container skills">
+                <div class="service">
+                    <i class="fas fa-cloud"></i>
+                    <h3>Web Hosting</h3>
+                    <p class="skill-intro">
+                        I am able to set up web hosting from any platform for any client interested
+                        in having their own website up
+                    </p>
+                    <h3>Software I have used</h3>
+                    <ul>
+                        <li>Wordpress</li>
+                        <li>MAMP</li>
+                        <li>Hostgator</li>
+                        <li>Github</li>
+                        <li>Google Domains</li>
+                        <li>Shopify</li>
+                    </ul>
+
+                </div> <!-- service -->
+
+                <div class="service">
+                    <i class="fas fa-desktop"></i>
+                    <h3>Front End Development</h3>
+                    <p class="skill-intro">
+                        I enjoy bringing to life any content the client asks for and provides
+                        into a living and working website for everyone to enjoy
+                    </p>
+                    <h3>Tools I use</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Atom</li>
+                    </ul>
+                </div> <!-- service -->
+
+                <div class="service">
+                    <i class="fab fa-wordpress"></i>
+                    <h3>Content Management Systems</h3>
+                    <p class="skill-intro">
+                        I utilize many different types of CMS to create different layouts
+                        and styles of a business's website
+                    </p>
+                    <h3>Managing Website Conent</h3>
+                    <ul>
+                        <li>Wordpress Gutenberg</li>
+                        <li>Elementor</li>
+                        <li>Custom CSS stylesheets</li>
+                        <li>Astra</li>
+                        <li>Shopify Editor</li>
+                    </ul>
+                </div> <!-- service -->
+
+                <div class="service">
+                    <i class="fas fa-code"></i>
+                    <h3>Programming</h3>
+                    <p class="skill-intro">
+                        I am comfortable working with Python, C++, and Javascript to automate tasks.
+                        I have also had experience with languages like Prolog, Swift, C, and Assembly
+                    </p>
+                    <h3>Object Oriented Programming</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>Javascript</li>
+                        <li>C++</li>
+                        <li>+ others</li>
+                    </ul>
+                </div> <!-- service -->
+
+                <div class="service">
+                    <i class="fas fa-pen-nib"></i>
+                    <h3>Design</h3>
+                    <p class="skill-intro">
+                        I love creating and being artistic. Combined with my love for technology,
+                        I am excited to learn and work on projects involving web development and
+                        graphic design
+                    </p>
+                    <h3>Getting Creative</h3>
+                    <ul>
+                        <li>Adobe Illustrator</li>
+                        <li>Premiere</li>
+                        <li>Photoshop</li>
+                        <li>iMovie</li>
+                        <li>Canva</li>
+                    </ul>
+                </div> <!-- service -->
+
+                <div class="service">
+                    <i class="fas fa-bug"></i>
+                    <h3>Debugging</h3>
+                    <p class="skill-intro">
+                        I am always making sure that code is running properly with no side effects. Even though
+                        it is not the most fun, I always triple check that code is functioning properly
+                    </p>
+                    <h3>Verifying functionality</h3>
+                    <ul>
+                        <li>cPanel</li>
+                        <li>Wordpress Dashboard</li>
+                        <li>Wordpress direct system files</li>
+
+                    </ul>
+                </div> <!-- service -->
+
+            </div> <!-- services -->
+        </section>
+
+
+        <!-- Footer Section -->
+          <section class="footer">
+              <div class="footer-container">
+                  <div class="footer-left">
+                      <h3>Let's Get in Touch</h3>
+                      <a href="mailto:lazaromorales215@gmail.com" class="footer__link">lazaromorales215@gmail.com</a>
+                      <div id="footer-button">
+                          <a href="https://internationalroofinginstallers.com/" class="btn">Get in Touch</a>
+                      </div>
+                  </div>
+                  <div class="">
+                      <ul class="social-list">
+                          <li class="social-list__item">
+                              <a class="social-list__link" href="github.com">
+                                  <i class="fab fa-github-alt"></i><span>Github</span>
+                              </a>
+                          </li>
+                          <li class="social-list__item">
+                              <a class="social-list__link" href="twitter.io">
+                                  <i class="fab fa-twitter"></i><span>Twitter</span>
+                              </a>
+                          </li>
+                          <li class="social-list__item">
+                              <a class="social-list__link" href="facebook.com">
+                                  <i class="fab fa-facebook"></i><span>Facebook</span>
+                              </a>
+                          </li>
+                          <li class="social-list__item">
+                              <a class="social-list__link" href="instagram.com">
+                                  <i class="fab fa-instagram"></i><span>Instagram</span>
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+
+          </section>
+
+          <footer>
+              &copy 2021 Lazaro Morales. All Rights Reserved.
+          </footer>
+
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+        <script src="js/main.js"></script>
+
+    </body>
+</html>

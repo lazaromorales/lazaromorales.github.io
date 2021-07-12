@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lazaro Morales's Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Fredoka+One&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="img/logo-light.png" alt="logo"></a>
+            </div>
+            <!--
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        -->
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link underline">Home</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link underline highlight">Projects</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link underline">About</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link underline">Contact</a></li>
+                    <!-- <li class="nav__item"><a href="sign-up.html" class="nav__link">Sign Up</a></li> -->
+                </ul>
+            </nav>
+        </header>
+
+        <!-- INTRO -->
+        <section class="intro" id="featured-intro">
+            <div class="intro-caption">
+                <h1 class="section__title section__title--intro">
+                    LA <strong> Tekkerz </strong>
+                </h1>
+                <p>A simple website showcasing the work and futbol private lessons offered by LA Tekkerz </p>
+                <!--<p class="section__subtitle section__subtitle--intro">front-end dev</p>-->
+            </div>
+        </section>
+
+        <div class="scroll-button-container">
+            <p>Scroll to Details</p>
+            <a href="#featured-work-bottom" class="scroll-button"><i class="fas fa-caret-square-down"></i></a>
+        </div>
+
+
+        <section class="featured-showcase">
+            <div class="featured-showcase-container">
+                <div class="featured-showcase-img">
+                    <img src="img/featured-work.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-showcase" id="featured-work-bottom">
+            <div class="description-container">
+                <h3>The Abstract</h3>
+                <div class="line">
+                </div>
+                <p>LA Tekkerz needed to showcase their business and what they offer in their futbol private trainings. They
+                    needed an online presence and website for interested clients to be able to visit.
+
+                </p>
+            </div>
+        </section>
+
+        <!-- My Services -->
+        <section class="showcase-skills-section">
+            <div class="showcase-skills-container">
+                <div class="showcase-skills">
+                    <div class="showcase-skill">
+                        <div class="featured-img">
+                            <img src="img/featured-work-logo222.png" alt="">
+                        </div>
+                    </div> <!-- service -->
+
+                    <div class="showcase-skill">
+                        <div class="featured-img">
+                            <img src="img/featured-work-insta22.png" alt="">
+                        </div>
+                    </div> <!-- service -->
+
+                    <div class="showcase-skill">
+                        <div class="featured-img">
+                            <img src="img/featured-work-email22.png" alt="">
+                        </div>
+                    </div> <!-- service -->
+                </div> <!-- services -->
+            </div>
+        </section>
+
+        <section class="featured-showcase">
+            <div class="description-container" id="featured-showcase-end">
+                <h3>The Product</h3>
+                <div class="line">
+                </div>
+                <p>I started by designing a logo on Adobe Illustrator to capture the business's brand and color palette.
+                    Then I began creating a simple design to capture the details of every image, to showcase social media
+                    platforms such as Instagram, and to capture interested leads through deployment of Netlify which captures
+                    client emails.
+
+                </p>
+            </div>
+        </section>
+
+
+        <section class="skills-intro featured-skills-showcase2">
+            <div class="skills-intro-container" id="featured-skills-showcase2-container">
+                <h3>Other Highlights</h3>
+                <div class="line">
+                </div>
+                <p>While developing this website, I gained comfort with services and certain programming features.
+                    Below are some highlights from this project!</p>
+            </div>
+        </section>
+
+        <section class="my-skills">
+            <div class="services services-container skills" id="showcase-skills">
+                <div class="service">
+                    <i class="fab fa-github"></i>
+                    <h3>Github Deployment</h3>
+                    <p class="skill-intro">
+                        I utilized Github/Atom's integration package to directly
+                        push/pull commits from <a href="https://github.com/lazaroem/lazaroem.github.io">LATekkerz Github repository</a>
+                    </p>
+                    <h3>Some of the Commits </h3>
+                    <div class="featured-img">
+                        <img src="img/featured-work-github52.png" alt="">
+                    </div>
+                </div> <!-- service -->
+
+                <div class="service">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>Custom CSS Buttons</h3>
+                    <p class="skill-intro">
+                        I worked with transitions, transformations, pseudo selectors, & more
+                        when creating LA Tekkerz's buttons
+                    </p>
+                    <h3>Button Demonstration</h3>
+                    <div class="button-container">
+                        <div class="button-box">
+                            <div>
+                                <a class="button-link" href="" onclick="return false;"><button class="btn-one btn-dark"><span>Hover over Me!</span></button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="featured-img">
+                        <img src="img/featured-work-button.png" alt="">
+                    </div> -->
+                    <div class="show-on-hover">
+                        <h3>This Button was Built with</h3>
+                        <div class="line" id="line2">
+                        </div>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Atom!</li>
+                        </ul>
+                    </div>
+
+                </div> <!-- service -->
+
+                <div class="service">
+                    <i class="fas fa-mobile"></i>
+                    <h3>Custom Animated Menu</h3>
+                    <p class="skill-intro">
+                        I combinined a toggler, animations, and smooth transitioning, in order to create a
+                        seamless mobile menu with an extra flare
+                    </p>
+                    <h3>Menu Demonstration</h3>
+                    <iframe src="https://www.latekkerz.com/"
+                    title="LATekkerz iFrame"
+                    height="400px"
+                    scrolling="no">
+                    </iframe>
+                </div> <!-- service -->
+
+            </div> <!-- services -->
+        </section>
+
+        <div id="visit-featured-work">
+            <a href="https://www.latekkerz.com/" class="btn">Visit LA Tekkerz</a>
+        </div>
+
+        <section class="runner-up-section">
+            <div class="runner-up-container">
+                <div class="featured-showcase" #id="runner-up">
+                    <div class="featured-showcase-container">
+                        <div class="featured-showcase-img">
+                            <img src="img/featured-runner-up22.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="runner-up-des">
+                    <h3>Runner Up</h3>
+                    <p>International Roofing Installers is a website I created through a Content Management Service. The main purpose of
+                    the site is to generate leads near the Los Angeles area. </p>
+                    <div class="runner-up-skill">
+                        <i class="fas fa-camera-retro"></i>
+                        <h3>Photoshop Editing</h3>
+                    </div>
+                    <div class="runner-up-skill">
+                        <i class="fas fa-desktop"></i>
+                        <h3>Web Design</h3>
+                    </div>
+                    <div class="runner-up-skill">
+                        <i class="fab fa-elementor"></i>
+                        <h3>Wordpress and Elementor Development</h3>
+                    </div>
+                    <a href="https://internationalroofinginstallers.com/" class="btn">Visit Site</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer Section -->
+          <section class="footer">
+              <div class="footer-container">
+                  <div class="footer-left">
+                      <h3>Let's Get in Touch</h3>
+                      <p>Any Questions? Feel free to send me a message</p>
+                      <div id="footer-button">
+                          <a href="https://internationalroofinginstallers.com/" class="btn">Get in Touch</a>
+                      </div>
+                  </div>
+                  <div class="footer-right">
+                      <ul class="social-list">
+                          <li class="social-list__item">
+                              <a class="social-list__link" href="mailto: lazaromorales215@gmail.com">
+                                  <i class="fas fa-envelope"></i><span>Email</span>
+                              </a>
+                          </li>
+                          <li class="social-list__item">
+                              <a class="social-list__link" href="https://github.com/lazaroem/lazaroem.github.io">
+                                  <i class="fab fa-github-alt"></i><span>Github</span>
+                              </a>
+                          </li>
+                          <li class="social-list__item">
+                              <a class="social-list__link" href="https://www.facebook.com/lazaro.morales.58">
+                                  <i class="fab fa-facebook"></i><span>Facebook</span>
+                              </a>
+                          </li>
+                          <li class="social-list__item">
+                              <a class="social-list__link" href="https://www.instagram.com/ladoublezz/">
+                                  <i class="fab fa-instagram"></i><span>Instagram</span>
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+
+          </section>
+
+          <footer>
+              &copy Copyright 2021 Lazaro Morales. All Rights Reserved.
+          </footer>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+        <script src="js/featured-work.js"></script>
+
+    </body>
+</html>
