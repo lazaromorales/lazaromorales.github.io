@@ -26,7 +26,7 @@ var servicesPositionY = services.getBoundingClientRect().top; //Y position aka T
 //Services Animation
 function servicesAnim() {
     //Choose greater than against === since servicesPositionY is an exact decimal
-    if( window.scrollY > servicesPositionY - 400 ) {
+    if( window.scrollY > servicesPositionY - 600 ) {
         services.style.opacity = 1;
         services.classList.add("fadeIn");
         services.classList.add("slideUp-loaded");
@@ -80,37 +80,8 @@ function featuredWorkAnim() {
           featuredDesButton.classList.add("fadeInSlow");
       } ,1700);
 
-    // if( window.scrollY > featuredWorkY - 250 ) {
-    //     setTimeout(function(){
-    //       skillList[0].classList.add("fadeIn");
-    //     } ,300);
-    //     setTimeout(function(){
-    //       skillList[1].classList.add("fadeIn");
-    //   } ,700);
-    //     setTimeout(function(){
-    //       skillList[2].classList.add("fadeIn");
-    //   } ,1200);
-    //     setTimeout(function(){
-    //       featuredDesButton.classList.add("fadeInSlow");
-    //   } ,1700);
-    //   }
 
     }
 }
 
 window.addEventListener('scroll', featuredWorkAnim);
-
-
-//
-// const navToggle = document.querySelector('.nav-toggle');
-// const navLinks = document.querySelectorAll('.nav__link');
-//
-// navToggle.addEventListener('click', () => {
-//     document.body.classList.toggle('nav-open');
-// });
-//
-// navLinks.forEach(link => {
-//     link.addEventListener('click', () => {
-//         document.body.classList.remove('nav-open');
-//     })
-// });
