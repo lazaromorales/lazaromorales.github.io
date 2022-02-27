@@ -1560,6 +1560,10 @@ input, textarea {
     margin-bottom: 20px;
 }
 
+.contact-container{
+    max-width: 1500px;
+}
+
 
 
 
