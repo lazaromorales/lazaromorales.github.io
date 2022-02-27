@@ -1560,18 +1560,19 @@ input, textarea {
     margin-bottom: 20px;
 }
 
+
+.wtf{
+  width: 85%;
+  justify-self:  flex-center;
+  self-align-content: center;
+  display: flex;
+}
+
 .center-contact-container{
   width: 100% !important;
   padding: 5% 5% 0 5%;
   text-align: left;
   
-}
-
-.contact-container-child{
-  width: 85%;
-  justify-self:  flex-center;
-  self-align-content: center;
-  display: flex;
 }
 
 
