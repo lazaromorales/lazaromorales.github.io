@@ -79,40 +79,37 @@
             <div class="description-container" id="about-me-des-container">
                 <h3>Send Us A Message</h3>
                 <div class="line">
-                </div>		    
+            </div>		    
 		    
 		    
-		      <!-- BEGINNING OF FORM -->
-      		
+		<!-- BEGINNING OF FORM -->
 		<!-- Taken from LATekkerz -->
-				<form action="POST" data-netlify="true">
+		<form action="POST" data-netlify="true">
+			<div>
+				<input type="text" name="name" placeholder="Full Name: ">
+			</div>
+			<div>
+				<input type="email" name="email" placeholder="Email: ">
+			</div>
+			<div>
+				<input type="text" name="topic" placeholder="Topic:">
+			</div>
+			<div>
+				<textarea type="text" name="message" placeholder="Your Message or Question: "></textarea>
+			</div>
+			<div>
+				<div data-netlify-recaptcha="true"></div>
+			</div>
+			<div class="block-font">
+				<div class="box-1">
 					<div>
-						<div class="">
-							<input type="text" name="name" placeholder="Full Name: ">
-							</div>
-							<div class="">
-								<input type="email" name="email" placeholder="Email: ">
-								</div>
-							</div>
-							<div class="full-width">
-								<input type="text" name="topic" placeholder="Topic:">
-								</div>
-								<div class="full-width">
-									<textarea type="text" name="message" placeholder="Your Message or Question: "></textarea>
-								</div>
-								<div class="full-width">
-									<div data-netlify-recaptcha="true"></div>
-								</div>
-								<div class="block-font">
-									<div class="box-1">
-										<div>
-											<button class="btn btn-lg" type="submit">
-												<span>Send</span>
-											</button>
-										</div>
-									</div>
-								</div>
-							</form>
+						<button class="btn btn-lg" type="submit">
+							<span>Send</span>
+						</button>
+					</div>
+				</div>
+			</div>
+			</form>
 		      <!--- END OF FORM -->
 		    
 		    
