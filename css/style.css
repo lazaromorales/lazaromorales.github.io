@@ -1560,10 +1560,9 @@ input, textarea {
     margin-bottom: 20px;
 }
 
-#form-container {
-    border: red solid 1px;
+.contact-container-child{
+  width:  85%;
 }
-
 
 
 
