@@ -1547,6 +1547,23 @@ footer {
 }
 
 
+/* Contact Page */
+
+input, textarea {
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    border: solid 1px #ccc;
+    resize: vertical;
+    box-sizing: border-box;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
 
 /* Media Queries */
 
